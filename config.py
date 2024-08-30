@@ -22,7 +22,7 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", 60*60))
 INSTA_ID = getenv("INSTA_ID",None)
 INSTA_PASS = getenv("INSTA_PASS",None)
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002036582074))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1001647516310))
 
 # Get this value from @mnrobot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None))
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shraddhachat")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/shraddhachat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_TOTAL_MASTI_ll")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ll_TOTAL_MASTI_ll")
 IGSUPPORT = True
 PHOTO_THUMBNAIL = False #telegram issues with uploading photos...
 MAX_CONCURRENT_TRANSMISSIONS = 10
