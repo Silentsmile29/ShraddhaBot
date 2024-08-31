@@ -45,11 +45,10 @@ GIT_TOKEN = getenv(
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_TOTAL_MASTI_ll")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ll_TOTAL_MASTI_ll")
 IGSUPPORT = True
-PHOTO_THUMBNAIL = True #telegram issues with uploading photos...
+PHOTO_THUMBNAIL = False #telegram issues with uploading photos...
 MAX_CONCURRENT_TRANSMISSIONS = 10
 BOT_WORKERS = 48
 IN_MEMMORY = False
-SEND_START_MESSAGE = False
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
