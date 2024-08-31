@@ -63,8 +63,8 @@ def stream_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
-                url="https://t.me/mnrobot?startgroup=true",
-            ) #callback_data="GetTimer",
+                callback_data="GetTimer",
+            ) #url="https://t.me/mnrobot?startgroup=true",
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
