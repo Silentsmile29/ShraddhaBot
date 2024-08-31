@@ -313,7 +313,7 @@ async def song_download_cb(client, CallbackQuery, _):
         os.remove(file_path)
     elif stype == "audio":
         try:
-            filename = await YouTube.download(
+            filename, direct, error = await YouTube.download(
                 yturl,
                 mystic,
                 songaudio=True,
